@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
+	<suppress>
+	   <notes><![CDATA[
+	   file name: hibernate-validator-6.0.18.Final.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.hibernate\.validator/hibernate-validator@.*$</packageUrl>
+	   <cpe>cpe:/a:hibernate:hibernate-validator</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: hibernate-validator-6.0.18.Final.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.hibernate\.validator/hibernate-validator@.*$</packageUrl>
+	   <cpe>cpe:/a:redhat:hibernate_validator</cpe>
+	</suppress>
+
+	<suppress>
+	   <notes><![CDATA[
+	   file name: jackson-databind-2.10.2.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$</packageUrl>
+	   <cpe>cpe:/a:fasterxml:jackson-modules-java8</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: jackson-databind-2.10.2.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$</packageUrl>
+	   <cpe>cpe:/a:fasterxml:jackson-databind</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: json-path-2.4.0.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/com\.jayway\.jsonpath/json-path@.*$</packageUrl>
+	   <cpe>cpe:/a:json-path:jayway_jsonpath</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: json-smart-2.3.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/net\.minidev/json-smart@.*$</packageUrl>
+	   <cpe>cpe:/a:json-smart_project:json-smart-v2</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: log4j-api-2.12.1.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.apache\.logging\.log4j/log4j-api@.*$</packageUrl>
+	   <cpe>cpe:/a:apache:log4j</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: logback-core-1.2.3.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/ch\.qos\.logback/logback-core@.*$</packageUrl>
+	   <cpe>cpe:/a:qos:logback</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: snakeyaml-1.25.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.yaml/snakeyaml@.*$</packageUrl>
+	   <cpe>cpe:/a:snakeyaml_project:snakeyaml</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-boot-2.2.4.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_boot</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-core-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-core@.*$</packageUrl>
+	   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-core-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-core@.*$</packageUrl>
+	   <cpe>cpe:/a:springsource:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-core-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-core@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-hateoas-1.0.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework\.hateoas/spring-hateoas@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_hateoas</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: json-smart-2.3.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/net\.minidev/json-smart@.*$</packageUrl>
+	   <cpe>cpe:/a:json-smart_project:json-smart</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: logback-classic-1.2.3.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/ch\.qos\.logback/logback-classic@.*$</packageUrl>
+	   <cpe>cpe:/a:qos:logback</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-boot-starter-2.2.4.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_boot</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-tx-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-tx@.*$</packageUrl>
+	   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-tx-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-tx@.*$</packageUrl>
+	   <cpe>cpe:/a:springsource:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-tx-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-tx@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_framework</cpe>
+	</suppress>
+
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-web-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-web@.*$</packageUrl>
+	   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-web-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-web@.*$</packageUrl>
+	   <cpe>cpe:/a:springsource:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-web-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-web@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: tomcat-embed-core-9.0.30.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-core@.*$</packageUrl>
+	   <cpe>cpe:/a:apache:tomcat</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: tomcat-embed-core-9.0.30.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-core@.*$</packageUrl>
+	   <cpe>cpe:/a:apache_tomcat:apache_tomcat</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: tomcat-embed-websocket-9.0.30.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-websocket@.*$</packageUrl>
+	   <cpe>cpe:/a:apache:tomcat</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: tomcat-embed-websocket-9.0.30.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-websocket@.*$</packageUrl>
+	   <cpe>cpe:/a:apache_tomcat:apache_tomcat</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-aop-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-aop@.*$</packageUrl>
+	   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-aop-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-aop@.*$</packageUrl>
+	   <cpe>cpe:/a:springsource:spring_framework</cpe>
+	</suppress>
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-aop-5.2.3.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework/spring-aop@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_framework</cpe>
+	</suppress>	
+	
+	<suppress>
+	   <notes><![CDATA[
+	   file name: spring-boot-starter-web-2.2.4.RELEASE.jar
+	   ]]></notes>
+	   <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter-web@.*$</packageUrl>
+	   <cpe>cpe:/a:vmware:spring_boot</cpe>
+	</suppress>
+</suppressions>
